@@ -29,9 +29,10 @@ ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  color: #bf2d2d;
 }
 #coke-zero {
-  color: #FF0000;
+  color: #bf2d2d;
 }
 .center {
   display: block;
