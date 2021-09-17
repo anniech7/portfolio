@@ -1,6 +1,41 @@
-em, strong {
-  background-color: #B2D6FF;    /* Light blue */
-  display: inline;             /* This is the default for em and strong */
-
+body {
+  color: #504e5c;
+  font-family: "Helvetica", "Arial", sans-serif;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
+/*ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}*/
+h1 {
+  padding: 25px;
+  text-align: center;
+}
+ol {
+  text-align: left;
+}
+.synopsis {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#coke-zero {
+  color: #FF0000;
+}
+.center {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
