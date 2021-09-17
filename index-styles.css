@@ -4,6 +4,7 @@ body {
   margin-left: 200px;
   margin-right: 200px;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica", "Arial", sans-serif;
@@ -24,12 +25,12 @@ h1 {
 ol {
   text-align: left;
 }
-.synopsis {
+.menu {
+  background-color: #c5c5c5;
   display: inline;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  color: #bf2d2d;
+  margin: 10px;
+  padding: 10px;
 }
 #coke-zero {
   color: #bf2d2d;
