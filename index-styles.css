@@ -1,23 +1,11 @@
 body {
   color: #504e5c;
   font-family: "Helvetica", "Arial", sans-serif;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin: 100px;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
   font-family: "Helvetica", "Arial", sans-serif;
 }
-
-/*ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-li {
-  display: inline;
-}*/
 h1 {
   padding: 25px;
   text-align: center;
@@ -25,19 +13,66 @@ h1 {
 ol {
   text-align: left;
 }
+.about-me {
+  text-align: center;
+}
 .menu {
-  background-color: #c5c5c5;
-  display: inline;
+  /* background-color: #c5c5c5; */
+  display: flex;
   list-style-type: none;
   margin: 10px;
   padding: 10px;
+  justify-content: center;
 }
 #coke-zero {
   color: #bf2d2d;
 }
 .center {
   display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.photos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+.sisters {
+  display: flex;
+  justify-content: center;
+}
+.west {
+  display: flex;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+    margin: 30px;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+    margin: 100px;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; /* Blue */
+    margin: 100px;
+  }
 }
